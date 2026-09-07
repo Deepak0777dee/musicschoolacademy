@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events & Dates — Stackly Music School Academy</title>
+  <meta name="description" content="Stay updated with concerts, masterclasses, exams, festivals, and term dates." />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body class="wms-theme">
+<!-- Loader -->
+<div id="page-loader">
+  <div style="position:relative;display:flex;align-items:center;justify-content:center;">
+    <div class="loader-logo"><img src="images/logo-stackly.webp" alt="Stackly" /></div>
+    <div class="loader-ring"></div>
+  </div>
+  <div class="loader-text">Loading</div>
+</div>
+<header class="header-wms" id="mainHeader">
+  <a href="index.html" class="logo-area" style="text-decoration:none;">
+    <img src="images/logo-stackly.webp" alt="Stackly Logo" />
+    
+  </a>
+  <nav class="nav-wms">
+    <a href="index.html">Home</a>
+    <a href="courses.html">About Us</a>
+    <a href="tutors.html">Meet Our Tutors</a>
+    <a href="events.html" class="active">Dates</a>
+  </nav>
+  <div class="header-actions">
+    <a href="contact.html" class="btn-wms-outline">Contact Us</a>
+    <a href="signup.html" class="btn-wms-solid">Sign Up</a>
+  </div>
+</header>
+<section class="hero-wms" style="background-image: url('images/hero_events.webp');">
+  <div class="hero-wms-content stagger-children">
+    <h1>Upcoming Events & Dates</h1>
+    <p>Concerts | Masterclasses | Exams | Festivals</p>
+  </div>
+  <div class="wavy-divider">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C59.71,118.08,130.83,116.8,188.9,94.21,234.33,76.54,277.6,64.55,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <span class="section-label">Term Dates 2026-27</span>
+    <h2 class="section-title">Academic Calendar</h2>
+    <div class="features-grid stagger-children" style="margin-top:2rem;">
+      <div class="feature-card"><div class="feature-icon" style="background:var(--warm-bg);color:var(--warm);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div><h4>Autumn Term</h4><p>September 5 – December 18, 2026<br/>Half Term: October 26 – 30<br/><strong>15 teaching weeks</strong></p></div>
+      <div class="feature-card"><div class="feature-icon" style="background:var(--info-bg);color:var(--info);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div><h4>Spring Term</h4><p>January 11 – April 2, 2027<br/>Half Term: February 15 – 19<br/><strong>12 teaching weeks</strong></p></div>
+      <div class="feature-card"><div class="feature-icon" style="background:var(--success-bg);color:var(--success);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div><h4>Summer Term</h4><p>April 19 – July 16, 2027<br/>Half Term: May 31 – June 4<br/><strong>13 teaching weeks</strong></p></div>
+    </div>
+  </div>
+</section>
+<section class="section section-alt">
+  <div class="container">
+    <span class="section-label">Upcoming Events</span>
+    <h2 class="section-title">Concerts, Exams & Masterclasses</h2>
+    <div style="display:grid;gap:1rem;margin-top:2rem;" class="stagger-children">
+      <div class="event-card"><div class="event-date-badge"><div class="day">15</div><div class="month">Sep</div></div><div class="event-info"><h4>Autumn Welcome Concert</h4><p>An informal concert to welcome new and returning students. All instruments and levels. Refreshments provided.</p><span class="event-tag" style="background:var(--warm-bg);color:var(--warm-dark);">Concert</span></div></div>
+      <div class="event-card"><div class="event-date-badge"><div class="day">28</div><div class="month">Oct</div></div><div class="event-info"><h4>Masterclass: Jazz Improvisation with Chris Potter</h4><p>An exclusive masterclass with internationally renowned jazz saxophonist Chris Potter. Limited to 20 participants.</p><span class="event-tag" style="background:rgba(139,92,246,0.08);color:#8b5cf6;">Masterclass</span></div></div>
+      <div class="event-card"><div class="event-date-badge"><div class="day">15</div><div class="month">Nov</div></div><div class="event-info"><h4>Grade Examinations — Autumn Session</h4><p>ABRSM and Trinity exam session for all instruments. Register by October 20th. Practice room access extended to 9PM during exam week.</p><span class="event-tag" style="background:var(--danger-bg);color:var(--danger);">Exam</span></div></div>
+      <div class="event-card"><div class="event-date-badge"><div class="day">18</div><div class="month">Dec</div></div><div class="event-info"><h4>Christmas Gala Concert</h4><p>Our flagship annual event featuring performances by all departments — strings, brass, woodwind, piano, voice, and percussion ensembles.</p><span class="event-tag" style="background:var(--warm-bg);color:var(--warm-dark);">Concert</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section horizontal-gallery-section" style="overflow:hidden; display:flex; flex-direction:column; justify-content:center; height:100vh; padding-top:0; padding-bottom:0;">
+  <div class="container" style="flex-shrink:0;">
+    <span class="section-label">Gallery</span>
+    <h2 class="section-title">Past Event Highlights</h2>
+  </div>
+  <div class="horizontal-scroll-wrapper" style="margin-top:2rem;overflow:visible;">
+    <div class="horizontal-scroll-inner" style="display:flex;gap:2rem;padding-left:max(5%, calc((100vw - 1200px)/2));width:max-content;">
+      <div style="width:600px;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-md);position:relative;" class="h-card">
+        <img src="images/event_gallery1.webp" alt="Concert" style="width:100%;height:350px;object-fit:cover;" />
+        <div style="position:absolute;bottom:0;left:0;right:0;padding:2rem;background:linear-gradient(transparent, rgba(0,0,0,0.8));color:#fff;">
+          <h4 style="color:#fff;margin-bottom:0.2rem;">Spring Recital 2023</h4>
+          <p style="font-size:0.9rem;opacity:0.9;color:#fff !important;margin:0;">Standing ovation for our violin soloist</p>
+        </div>
+      </div>
+      <div style="width:600px;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-md);position:relative;" class="h-card">
+        <img src="images/hero_events.webp" alt="Orchestra" style="width:100%;height:350px;object-fit:cover;" />
+        <div style="position:absolute;bottom:0;left:0;right:0;padding:2rem;background:linear-gradient(transparent, rgba(0,0,0,0.8));color:#fff;">
+          <h4 style="color:#fff;margin-bottom:0.2rem;">Youth Symphony Gala</h4>
+          <p style="font-size:0.9rem;opacity:0.9;color:#fff !important;margin:0;">Our combined string and wind orchestra</p>
+        </div>
+      </div>
+      <div style="width:400px;height:350px;display:flex;align-items:center;justify-content:center;background:var(--wms-cream);border-radius:var(--radius-lg);border:2px dashed var(--wms-yellow);" class="h-card">
+        <div style="text-align:center;color:var(--wms-dark);font-weight:600;">
+          <div style="font-size:2rem;margin-bottom:0.5rem;">📸</div>
+          View Full Gallery
+        </div>
+      </div>
+      <!-- Spacer to ensure the last card isn't cut off at the edge of the screen -->
+      <div style="width: max(5vw, calc((100vw - 1200px)/2)); flex-shrink:0;"></div>
+    </div>
+  </div>
+</section>
+<footer class="footer"></footer>
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>
