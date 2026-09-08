@@ -130,11 +130,12 @@ document.addEventListener('DOMContentLoaded', () => {
             <h4>Quick Links</h4>
             <ul>
               <li><a href="index.html">Home</a></li>
-              <li><a href="courses.html">Courses</a></li>
-              <li><a href="tutors.html">Tutors</a></li>
-              <li><a href="events.html">Events</a></li>
+              <li><a href="courses.html">About Us</a></li>
+              <li><a href="tutors.html">Meet Our Tutors</a></li>
+              <li><a href="events.html">Dates</a></li>
               <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="signup.html">Sign Up</a></li>
             </ul>
           </div>
           <div class="footer-col">
