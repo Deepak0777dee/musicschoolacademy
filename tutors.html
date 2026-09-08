@@ -23,16 +23,23 @@
     <img src="images/logo-stackly.webp" alt="Stackly Logo" />
     
   </a>
-  <nav class="nav-wms">
-    <a href="index.html">Home</a>
-    <a href="courses.html">About Us</a>
-    <a href="tutors.html" class="active">Meet Our Tutors</a>
-    <a href="events.html">Dates</a>
-    <a href="pricing.html">Pricing</a>
-  </nav>
-  <div class="header-actions">
-    <a href="contact.html" class="btn-wms-outline">Contact Us</a>
-    <a href="signup.html" class="btn-wms-solid">Sign Up</a>
+  <button class="wms-ham-btn" id="wmsHamBtn" aria-label="Menu" onclick="document.getElementById('mainHeader').classList.toggle('menu-open')">
+    <svg class="ham-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <div class="mobile-overlay-wms" onclick="document.getElementById('mainHeader').classList.remove('menu-open')"></div>
+  <div class="mobile-sidebar-wms">
+    <nav class="nav-wms">
+        <a href="index.html">Home</a>
+        <a href="courses.html">About Us</a>
+        <a href="tutors.html" class="active">Meet Our Tutors</a>
+        <a href="events.html">Dates</a>
+        <a href="pricing.html">Pricing</a>
+      </nav>
+      <div class="header-actions">
+        <a href="contact.html" class="btn-wms-outline">Contact Us</a>
+        <a href="signup.html" class="btn-wms-solid">Sign Up</a>
+      </div>
   </div>
 </header>
 <section class="hero-wms" style="background-image: url('images/hero_tutors.webp');">
